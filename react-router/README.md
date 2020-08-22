@@ -33,5 +33,8 @@ React Router keeps your UI in sync with the URL
 ```
 
 - Basic
-- Nested
-- Query Parameters and so on.
+- URL Parameters
+- Query Parameters
+- 404 Match
+- Nested 
+- Animation and so on.
