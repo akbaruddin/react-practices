@@ -1,5 +1,6 @@
-Router create similar as Switch Condition - [Code](https://codesandbox.io/s/react-route-basic-f6fic)
+# Route Basic
 
+Router create similar as Switch Condition - [Code](https://codesandbox.io/s/react-route-basic-f6fic)
 
 ```                                                     
 <Router> ─────────────────────────────────────────────▶  function - wrapper          
