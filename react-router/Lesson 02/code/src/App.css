@@ -1,0 +1,47 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.right {
+  text-align: center;
+  flex: 1;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.first a {
+  color: #1b262c
+}
+
+.second a {
+  color: #0f4c75
+}
+
+.third a {
+  color: #3282b8
+}
+
+.forth a {
+  color: #394989
+}
+
+.under-line {
+  text-decoration: underline;
+}
+

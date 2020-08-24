@@ -14,7 +14,7 @@ Simple `key`=`value` query strings.
                    │     │                 
                    │     │                 
                    │     │                 
- www.example.com/?state=delhi              
+ www.example.com/?state=Delhi              
 ────────────────  ─────┬─────              
        │               │                   
        │               │                   
@@ -23,4 +23,14 @@ Simple `key`=`value` query strings.
                        │                   
                        ▼                   
                   Query Parameter          
+```
+
+Single Query Parameter
+```
+www.example.com/?state=Delhi
+```
+
+Multiple Query Parameter
+```
+www.example.com/?state=Delhi&country=India
 ```
