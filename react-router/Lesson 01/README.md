@@ -35,18 +35,37 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route
-          path="/about"
-        >
+        <Route path="/about">
           <About />
         </Route>
-        <Route
-          path="/"
-        >
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
     </Router>
   )
 }
+
+// or
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+      </Switch>
+    </Router>
+  )
+}
 ```
+
+The `exact` param comes into play when you have multiple paths that have similar names.
+
+`exact`: bool
+
+When true, will only match if the path matches the location.pathname exactly.
