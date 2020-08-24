@@ -1,0 +1,27 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.page {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 20px;
+  color: #00bcd4;
+}
+
+.home {
+  color: #fadcac
+}
+
+.about {
+  color: #3b5249
+}
+
+.contact {
+  color: #519872
+}
+
+.products {
+  color: #519872
+}
